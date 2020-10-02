@@ -1,15 +1,17 @@
 # Linux Users Management:
 
-## Creating new user in RedHat/Amazon Linux and login the server via new user:
+## Creating new user in RedHat/Amazon Linux and login into the server via new user:
 1. To add a new user to the system:
-      Use `adduser` command and followed by the name of the user you wish to create.
-      Example: `sudo adduser admin`
+      Use `adduser` command and followed by the name of the user you wish to create.Example:
+      `sudo adduser admin`
 2. To Switch the new user:
       `sudo su admin`
 3. To Connect server via admin user:
       First we want to create a “.ssh” folder in users home
-      `cd ~`
-      `mkdir .ssh`
+      ```sh
+      $ cd ~
+      $ mkdir .ssh
+      ```
 4. Change the file permissions of the `.ssh` directory to `700` (this means only the file owner can read, write, or open the directory).
       `chmod 700 .ssh`
 5. Create a file named `authorized_keys` in the `.ssh` directory.
