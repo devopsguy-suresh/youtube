@@ -2,7 +2,9 @@
 
 ## Creating new user in RedHat/Amazon Linux and login into the server via new user:
 1. To add a new user to the system: Use `adduser` command and followed by the name of the user you wish to create.Example:
-`sudo adduser admin`
+```
+sudo adduser admin
+```
 2. To Switch the new user.
 `sudo su admin`
 3. To Connect server via admin user:
