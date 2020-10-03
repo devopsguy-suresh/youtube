@@ -22,4 +22,4 @@
     sudo service sshd restart
     ```
 
-Note: Password authentication is not more secure than private key authentication, so maximum cases avoid this.
+**Note**: Password authentication is not more secure than private key authentication, so maximum cases avoid this.
