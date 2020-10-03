@@ -13,7 +13,6 @@
     ```sh
     ssh ec2-user@public-ip/public-dns
     ```
-Note: Password authentication is not more secure than private key authentication, so maximum cases avoid this.
 5. In feature if we want to remove the password for ec2-user use following command
     ```sh
     sudo passwd -d ec2-user
@@ -22,3 +21,5 @@ Note: Password authentication is not more secure than private key authentication
     ```sh
     sudo service sshd restart
     ```
+
+Note: Password authentication is not more secure than private key authentication, so maximum cases avoid this.
